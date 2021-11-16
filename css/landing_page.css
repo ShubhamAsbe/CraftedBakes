@@ -314,7 +314,7 @@ ul li a:hover{
   filter: opacity(0.7);
   transform: rotate(10deg);
   left: 46%;
-  top :860px;
+  top :770px;
   z-index: -1;
 }
 
@@ -327,9 +327,9 @@ ul li a:hover{
   background-size: contain;
   position: absolute;
   filter: opacity(0.4);
-  left:81%;
-  top: 1500px;
-  transform: rotate(70deg);
+  left:79%;
+  top: 1380px;
+  transform: rotate(90deg);
   z-index: -1;
 }
 
