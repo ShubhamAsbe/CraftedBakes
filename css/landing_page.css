@@ -2047,7 +2047,11 @@ height: fit-content;
   #landing_cake{
     width: 430px;
     top: 20%;
+  }
 
+  #view_more{
+    margin-bottom: 0px;
+    
   }
 
 
