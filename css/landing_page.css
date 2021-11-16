@@ -387,39 +387,45 @@ ul li a:hover{
 #third_section_second_div{
   width: 100%;
   height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #third_section_thrid_div_1{
   background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
- width: 300px;
+ width: 25%;
  height: 500px;
- float: left;
  background-repeat: no-repeat; 
- margin-left: 80px;
- margin-top: 50px;
+ margin-left: 0px;
+ margin-top: 30px;
+ background-size: contain;
 }
 
 #third_section_thrid_div_2{
   background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
-  width: 400px;
+  width: 30%;
   height: 550px;
-  float: left;
-  margin-left: 195px;
+  margin-left: 0px;
   background-repeat: no-repeat; 
+  background-size: contain;
 }
 
 #third_section_thrid_div_3{
   background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
-  width: 400px;
-  height: 550px;
-  float: right;
-  margin-top: 50px;
+  width: 25%;
+  height: 500px;
+  margin-top: 70px;
   background-repeat: no-repeat; 
+  background-size: contain;
 }
 
 #view_more{
-  margin-top: 85vh;
-  margin-left: 85vh;
+  margin-top: 0vh;
+  margin-left: 84vh;
+  padding-bottom: 150px;
 }
 
 .third_section_button{
@@ -776,38 +782,41 @@ footer{
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column;
+   flex-direction: row;
    gap: 40px;
  
  }
  
  #third_section_thrid_div_1{
    background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
-  width: 300px;
-  height: 500px;
+  width: 25%;
+  height: 400px;
   float:none;
   background-repeat: no-repeat; 
   margin-left: 0px;
   margin-top: 0px;
+  background-size: contain;
  }
  
  #third_section_thrid_div_2{
    background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
-   width: 400px;
-   height: 550px;
+   width: 30%;
+   height: 450px;
     float:none;
    margin-left: 0px;
    background-repeat: no-repeat; 
+   background-size: contain;
  }
  
  #third_section_thrid_div_3{
    background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
-   width: 400px;
-   height: 550px;
+   width: 25%;
+   height: 400px;
    float:none;
-   margin-left: 70px;;
+   margin-left: 0px;
    margin-top: 0px;
-   background-repeat: no-repeat; 
+   background-repeat: no-repeat;
+   background-size: contain; 
  }
  
  #view_more{
@@ -816,6 +825,7 @@ footer{
    display: flex;
    align-items: center;
    justify-content: center;
+   padding-bottom: 0px;
 
  }
  
@@ -1160,31 +1170,34 @@ footer{
  
  #third_section_thrid_div_1{
    background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
-  width: 300px;
-  height: 500px;
+  width: 43%;
+  height: 400px;
   float:none;
   background-repeat: no-repeat; 
   margin-left: 0px;
   margin-top: 0px;
+  background-size: contain;
  }
  
  #third_section_thrid_div_2{
    background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
-   width: 400px;
-   height: 550px;
+   width: 50%;
+   height: 410px;
     float:none;
    margin-left: 0px;
    background-repeat: no-repeat; 
+   background-size: contain;
  }
  
  #third_section_thrid_div_3{
    background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
-   width: 400px;
-   height: 550px;
+   width: 43%;
+   height: 400px;
    float:none;
-   margin-left: 70px;;
+   margin-left: 0px;
    margin-top: 0px;
    background-repeat: no-repeat; 
+   background-size: contain;
  }
  
  #view_more{
@@ -1193,6 +1206,7 @@ footer{
    display: flex;
    align-items: center;
    justify-content: center;
+   padding-bottom: 0px;
 
  }
  
@@ -1535,31 +1549,34 @@ ul a{
 
 #third_section_thrid_div_1{
   background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
- width: 300px;
+ width: 65%;
  height: 500px;
  float:none;
  background-repeat: no-repeat; 
  margin-left: 0px;
  margin-top: 0px;
+ background-size: contain;
 }
 
 #third_section_thrid_div_2{
   background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
-  width: 400px;
+  width: 70%;
   height: 550px;
    float:none;
   margin-left: 0px;
   background-repeat: no-repeat; 
+  background-size: contain;
 }
 
 #third_section_thrid_div_3{
   background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
-  width: 400px;
-  height: 550px;
+  width: 65%;
+  height: 500px;
   float:none;
-  margin-left: 70px;;
+  margin-left: 0px;
   margin-top: 0px;
   background-repeat: no-repeat; 
+  background-size: contain;
 }
 
 #view_more{
@@ -1933,31 +1950,34 @@ height: fit-content;
  
  #third_section_thrid_div_1{
    background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
-  width: 300px;
-  height: 500px;
+  width: 65%;
+  height: 400px;
   float:none;
   background-repeat: no-repeat; 
   margin-left: 0px;
   margin-top: 0px;
+  background-size: contain;
  }
  
  #third_section_thrid_div_2{
    background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
-   width: 400px;
-   height: 550px;
+   width: 70%;
+   height: 450px;
     float:none;
    margin-left: 0px;
    background-repeat: no-repeat; 
+   background-size: contain;
  }
  
  #third_section_thrid_div_3{
    background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
-   width: 400px;
-   height: 550px;
+   width: 65%;
+   height: 450px;
    float:none;
-   margin-left: 70px;;
+   margin-left: 0px;
    margin-top: 0px;
    background-repeat: no-repeat; 
+   background-size: contain;
  }
  
  
