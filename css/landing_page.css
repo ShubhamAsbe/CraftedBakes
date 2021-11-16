@@ -1,0 +1,2035 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  padding: 0px 12%;
+  position: fixed;
+  top:0;
+  left:0;
+ z-index: 999;
+}
+
+nav{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  gap: 18px;
+}
+
+ul a{
+ color: #7B1B35;
+ text-decoration: none;
+ padding: 5px;
+}
+
+ul li a:hover{
+  background-color: #7B1B35;
+  color: white;
+  
+}
+
+#hamburger{
+  cursor: pointer;
+  display: none;
+}
+
+.ham-1,.ham-2,.ham-3{
+  width: 35px;
+  height: 5px;
+  background-color: #7B1B35;
+  margin: 5px 0px;
+  transition: 500ms;
+
+
+}
+
+.active .ham-1{
+  transform: rotate(-45deg) translate(-9px,6px);
+
+}
+
+.active .ham-3{
+  transform: rotate(45deg) translate(-8px,-8px);
+  
+}
+
+.active .ham-2{
+ opacity: 0;
+}
+
+
+#first_section{
+  width: 100%;
+  height: 95vh;
+
+}
+
+#first_section_first_div_1{
+  width: 100%;
+  height: 100%;
+  background-color: #F0D9FF;
+}
+
+#first_section_first_div_2{
+  background-color: #BFA2DB;
+  width: 65%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 100px;
+  border-radius: 0% 50% 50% 0%;
+}
+
+#first_img{
+  height: 350px;
+  width: 550px;
+  background-image:url(../Images/vector_floral/11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: opacity(0.3);
+  transform: rotate(-320deg);
+  position: absolute;
+  top: 50vh;
+  left: -100px;
+
+}
+
+#landing_cake{
+  height: 370px;
+  width: 370px;
+  background-image:url(../Images/cake_imgs/landing_cake.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 35vh;
+  left: 50%;
+  z-index: 2;
+}
+
+#second_img{
+  height: 250px;
+  width: 250px;
+  background-image:url(../Images/vector_floral/33.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.5);
+  left: 53%;
+  top: 8vh;
+  transform: rotate(43deg);
+}
+
+#third_img{
+  height: 250px;
+  width: 250px;
+  background-image:url(../Images/vector_floral/11.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.4);
+  left: 48%;
+  top:65vh;
+}
+
+#first_section_cb{
+  font-size: 40px;
+  color:#F0D9FF;
+}
+
+#first_section_second_div_1{
+  background-color: #F0D9FF;
+  width: 35%;
+  height: 100%;
+  float: right;
+  
+}
+
+
+#second_section{
+  width: 100%;
+  height: 115vh;
+}
+
+#second_section_first_div_1{
+  width: 100%;
+  height: 80%;
+}
+
+
+#div_categories{
+ margin-left: 85vh;
+ margin-bottom: 15vh;
+ z-index: 2;
+ background-color: white;
+}
+
+#categories{
+  text-align: center;
+  color: #7B1B35;
+  font-size: 40px;
+  margin-top: 10vh;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: fit-content;
+  z-index: 2;
+}
+
+
+#second_section_second_div_1{
+  float:left; 
+  background:#A988D2;
+  width:30%;
+  height:100%;
+}
+
+#second_section_third_div_1{
+  float:left; 
+  background:#7B1B35;
+  width:40%;
+  height:100%;
+}
+
+#second_section_fourth_div_1{
+  float:right; 
+  background:#A988D2;
+  width:30%;
+  height:100%;
+}
+
+.second_section_text{
+ text-align: center;
+ text-decoration: underline;
+ color: azure;
+ padding-top: 40px;
+ font-size: 45px;
+}
+
+#second_section_first_div_2{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#second_section_second_div_1,#second_section_third_div_1,#second_section_fourth_div_1{
+  width: 400px;
+  height: fit-content;
+
+}
+
+#second_section_second_div_3{
+ background-image: url(../Images/cake_imgs/2nd_section_1_img.png); 
+ width: 400px;
+ height: 300px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ margin-top: 40px;
+}
+
+.second_section_button{
+  font-size: 20px;
+  color: #7B1B35;
+  background-color: white;
+  border: 2px solid #7B1B35;
+  border-radius: 50px;
+  padding: 0px 10px;
+  margin-left: 170px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+#second_section_third_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_2_img.png); 
+  width: 300px;
+  height: 280px;
+  margin-top: 45px;
+  margin-bottom: 17px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#second_section_fourth_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_3_img.png);
+  width: 300px;
+  height: 280px;
+  margin-top: 45px;
+  margin-bottom: 17px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#second_section_flower1{
+  height: 400px;
+  width: 400px;
+  background-image:url(../Images/vector_floral/22.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.2);
+  transform: rotate(-43deg);
+  left: -8%;
+}
+
+#second_section_flower2{
+  height: 150px;
+  width: 150px;
+  background-image:url(../Images/vector_floral/33.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.7);
+  transform: rotate(10deg);
+  left: 46%;
+  top :860px;
+  z-index: -1;
+}
+
+#second_section_flower3{
+  height: 250px;
+  width: 250px;
+  background-image:url(../Images/vector_floral/55.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.4);
+  left:81%;
+  top: 1500px;
+  transform: rotate(70deg);
+  z-index: -1;
+}
+
+#third_section{
+  width: 100%;
+  height: 115vh;
+  background-color: #F0D9FF;
+}
+
+
+#third_section_first_div{
+  width: 100%;
+  height: 100%;
+}
+
+
+#third_section_first_div_1{
+  height: 100px;
+  width: 125px;
+  background-image: url(../Images/vector_floral/55.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.5);
+  left: 45%;
+  margin-top: 100px;
+  transform: rotate(70deg);
+  z-index: 2;
+}
+
+
+
+#div_flavor{
+  margin-left: 85vh;
+  margin-bottom: 15vh;
+  background-color:#F0D9FF;
+  z-index: 2;
+ }
+
+ #flavor{
+  text-align: center;
+  color: #7B1B35;
+  font-size: 40px;
+  margin-left: 0px;
+  position: relative;
+  background-color:#F0D9FF;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: fit-content;
+  z-index: 2;
+  padding-top: 100px;
+ }
+
+#third_section_second_div{
+  width: 100%;
+  height: fit-content;
+}
+
+#third_section_thrid_div_1{
+  background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
+ width: 300px;
+ height: 500px;
+ float: left;
+ background-repeat: no-repeat; 
+ margin-left: 80px;
+ margin-top: 50px;
+}
+
+#third_section_thrid_div_2{
+  background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
+  width: 400px;
+  height: 550px;
+  float: left;
+  margin-left: 195px;
+  background-repeat: no-repeat; 
+}
+
+#third_section_thrid_div_3{
+  background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
+  width: 400px;
+  height: 550px;
+  float: right;
+  margin-top: 50px;
+  background-repeat: no-repeat; 
+}
+
+#view_more{
+  margin-top: 85vh;
+  margin-left: 85vh;
+}
+
+.third_section_button{
+  font-size: 20px;
+  color: white;
+  background-color: #7B1B35;
+  border: 2px solid #7B1B35;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+
+
+
+
+
+footer{
+  background-color:gainsboro;
+  width: 100%;
+  height: 250px;
+  padding: 0px 20px;
+}
+
+#social
+{
+    display: list-item;
+    align-items: center;
+    margin: 15px;
+    padding: 5px;
+}
+
+
+
+#contact
+{
+    display: list-item;
+    margin: 15px;
+    padding: 5px;
+}
+
+#div_contact{
+  margin-bottom: 67px;
+}
+
+#contact span{
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+
+@media only screen and (max-width:1100px) {
+  #landing_cake{
+    width: 320px;
+  }
+ 
+ #first_img{
+   width: 350px;
+   height: 200px;
+   top:350px;
+ }
+ 
+  #second_img{
+    width: 200px;
+    height: 200px;
+    top: 20vh;
+    left: 50%;
+ }
+ 
+ #third_img{
+   width: 200px;
+   height: 200px;
+   top: 70%;
+   
+ }
+ 
+   #hamburger{
+    display: inline-block;
+  }
+ 
+  #ul_class{
+   width: 90%;
+   height: 100vh;
+   background-color: white;
+   z-index: 99;
+ 
+  }
+ 
+  .ul_class{
+   position: absolute;
+   top:70px;
+   left:-100%;
+   transition: left 300ms ease-in-out;
+ }
+ 
+ .activenav{
+   position: absolute;
+   top:70px;
+   left:0%;
+   transition: left 300ms ease-in-out;
+ }
+ 
+ 
+ 
+  ul{
+   list-style: none;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 60px;
+   flex-direction: column;
+   gap: 18px;
+ }
+ 
+ ul a{
+  color: #7B1B35;
+  text-decoration: none;
+ }
+ 
+ 
+ #second_section{
+   width: 100%;
+   height: fit-content;
+   padding: 50px 0px;
+ }
+ 
+ #second_section_first_div_1{
+   width: 100%;
+   height: fit-content;
+ }
+ 
+ 
+ #div_categories{
+   margin-left: 0vh;
+   margin-bottom: 0vh;
+   z-index: 2;
+   background-color: white;
+   text-align: center;
+   margin: 0 auto;
+   padding: 0 25%;
+ 
+  }
+  
+  #categories{
+    width: 100%;
+    text-align: center;
+    color: #7B1B35;
+    font-size: 40px;
+    margin-top: 0vh;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    z-index: 2;
+  }
+  
+ 
+ #second_section_second_div_1{
+   background:#A988D2;
+   width:30%;
+   height:fit-content;
+ }
+ 
+ #second_section_third_div_1{
+   background:#7B1B35;
+   width:40%;
+   height:fit-content;
+ }
+ 
+ #second_section_fourth_div_1{ 
+   background:#A988D2;
+   width:30%;
+   height:fit-content;
+ }
+ 
+ .second_section_text{
+  text-align: center;
+  text-decoration: underline;
+  color: azure;
+  padding-top: 40px;
+  font-size: 45px;
+ }
+ 
+ #second_section_first_div_2{
+   display: flex;
+   width: 100%;
+   height: fit-content;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ 
+ #second_section_second_div_1,#second_section_third_div_1,#second_section_fourth_div_1{
+   width: 350px;
+   height: fit-content;
+   overflow: hidden;
+ 
+ }
+ 
+ #second_section_second_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_1_img.png); 
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+ }
+ 
+ .second_section_button{
+   font-size: 20px;
+   color: #7B1B35;
+   background-color: white;
+   border: 2px solid #7B1B35;
+   border-radius: 50px;
+   padding: 0px 10px;
+   margin-left: 140px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+ 
+ }
+ 
+ #second_section_third_div_3{
+   background-image: url(../Images/cake_imgs/2nd_section_2_img.png); 
+   width: 300px;
+   height: 280px;
+   margin-top: 45px;
+   margin-bottom: 17px;
+   margin-left: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ 
+ }
+ 
+ #second_section_fourth_div_3{
+   background-image: url(../Images/cake_imgs/2nd_section_3_img.png);
+   width: 300px;
+   height: 280px;
+   margin-top: 45px;
+   margin-bottom: 17px;
+   margin-left: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ #second_section_flower1{
+   height: 400px;
+   width: 200px;
+   background-image:url(../Images/vector_floral/22.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.5);
+   transform: rotate(-43deg);
+   left: -8%;
+   margin-top: -50px;
+ }
+ 
+ #second_section_flower2{
+   height: 150px;
+   width: 150px;
+   background-image:url(../Images/vector_floral/33.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.7);
+   transform: rotate(10deg);
+   left: 46%;
+   top :100px;
+   z-index: -1;
+   display: none;
+ }
+ 
+ #second_section_flower3{
+   height: 250px;
+   width: 250px;
+   background-image:url(../Images/vector_floral/55.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.4);
+   left:81%;
+   top: 700px;
+   transform: rotate(70deg);
+   z-index: -1;
+   display: none;
+ }
+ 
+ 
+ #third_section{
+   width: 100%;
+   height: fit-content;
+   background-color: #F0D9FF;
+ }
+ 
+ 
+ #third_section_first_div{
+   width: 100%;
+   height: fit-content;
+ }
+ 
+ 
+ #third_section_first_div_1{
+   height: 100px;
+   width: 125px;
+   background-image: url(../Images/vector_floral/55.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.5);
+   left: 45%;
+   margin-top: 100px;
+   transform: rotate(70deg);
+   z-index: 1;
+   display: none;
+ }
+ 
+ 
+ 
+ #div_flavor{
+   margin-left: 0vh;
+   margin-bottom: 0vh;
+   background-color:#F0D9FF;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   z-index: 2;
+  }
+ 
+  #flavor{
+   text-align: center;
+   color: #7B1B35;
+   font-size: 40px;
+   background-color:#F0D9FF;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+   width: fit-content;
+   margin-left: 0px;
+   z-index: 1;
+   padding-top: 50px;
+  }
+ 
+ #third_section_second_div{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+ 
+ }
+ 
+ #third_section_thrid_div_1{
+   background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
+  width: 300px;
+  height: 500px;
+  float:none;
+  background-repeat: no-repeat; 
+  margin-left: 0px;
+  margin-top: 0px;
+ }
+ 
+ #third_section_thrid_div_2{
+   background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
+   width: 400px;
+   height: 550px;
+    float:none;
+   margin-left: 0px;
+   background-repeat: no-repeat; 
+ }
+ 
+ #third_section_thrid_div_3{
+   background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
+   width: 400px;
+   height: 550px;
+   float:none;
+   margin-left: 70px;;
+   margin-top: 0px;
+   background-repeat: no-repeat; 
+ }
+ 
+ #view_more{
+   margin-top: 0vh;
+   margin-left: 0vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+ }
+ 
+ .third_section_button{
+   font-size: 20px;
+   color: white;
+   background-color: #7B1B35;
+   border: 2px solid #7B1B35;
+   border-radius: 50px;
+   padding: 10px;
+   margin-left: 0px;
+   margin-bottom: 50px;;
+ }
+ 
+ .nav{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+ }
+ 
+ footer{
+ width: 100%;
+ height: fit-content;
+ }
+ 
+
+}
+
+
+@media only screen and (max-width:900px) {
+  #landing_cake{
+    width: 320px;
+  }
+ 
+ #first_img{
+   width: 350px;
+   height: 200px;
+   top:550px;
+ }
+ 
+  #second_img{
+    width: 200px;
+    height: 200px;
+    top: 20vh;
+    left: 45%;
+ }
+ 
+ #third_img{
+   width: 200px;
+   height: 200px;
+   
+ }
+ 
+   #hamburger{
+    display: inline-block;
+  }
+ 
+  #ul_class{
+   width: 90%;
+   height: 100vh;
+   background-color: white;
+   z-index: 99;
+ 
+  }
+ 
+  .ul_class{
+   position: absolute;
+   top:70px;
+   left:-100%;
+   transition: left 300ms ease-in-out;
+ }
+ 
+ .activenav{
+   position: absolute;
+   top:70px;
+   left:0%;
+   transition: left 300ms ease-in-out;
+ }
+ 
+ 
+ 
+  ul{
+   list-style: none;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 60px;
+   flex-direction: column;
+   gap: 18px;
+ }
+ 
+ ul a{
+  color: #7B1B35;
+  text-decoration: none;
+ }
+ 
+ 
+ #second_section{
+   width: 100%;
+   height: fit-content;
+   padding: 50px 0px;
+ }
+ 
+ #second_section_first_div_1{
+   width: 100%;
+   height: fit-content;
+ }
+ 
+ 
+ #div_categories{
+   margin-left: 0vh;
+   margin-bottom: 0vh;
+   z-index: 2;
+   background-color: white;
+   text-align: center;
+   margin: 0 auto;
+   padding: 0 25%;
+ 
+  }
+  
+  #categories{
+    width: 100%;
+    text-align: center;
+    color: #7B1B35;
+    font-size: 40px;
+    margin-top: 0vh;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    z-index: 2;
+  }
+  
+ 
+ #second_section_second_div_1{
+   background:#A988D2;
+   width:30%;
+   height:fit-content;
+ }
+ 
+ #second_section_third_div_1{
+   background:#7B1B35;
+   width:40%;
+   height:fit-content;
+ }
+ 
+ #second_section_fourth_div_1{ 
+   background:#A988D2;
+   width:30%;
+   height:fit-content;
+ }
+ 
+ .second_section_text{
+  text-align: center;
+  text-decoration: underline;
+  color: azure;
+  padding-top: 40px;
+  font-size: 45px;
+ }
+ 
+ #second_section_first_div_2{
+   display: flex;
+   width: 100%;
+   height: fit-content;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ 
+ #second_section_second_div_1,#second_section_third_div_1,#second_section_fourth_div_1{
+   width: 350px;
+   height: fit-content;
+   overflow: hidden;
+ 
+ }
+ 
+ #second_section_second_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_1_img.png); 
+  width: 350px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+ }
+ 
+ .second_section_button{
+   font-size: 20px;
+   color: #7B1B35;
+   background-color: white;
+   border: 2px solid #7B1B35;
+   border-radius: 50px;
+   padding: 0px 10px;
+   margin-left: 140px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+ 
+ }
+ 
+ #second_section_third_div_3{
+   background-image: url(../Images/cake_imgs/2nd_section_2_img.png); 
+   width: 300px;
+   height: 280px;
+   margin-top: 45px;
+   margin-bottom: 17px;
+   margin-left: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ 
+ }
+ 
+ #second_section_fourth_div_3{
+   background-image: url(../Images/cake_imgs/2nd_section_3_img.png);
+   width: 300px;
+   height: 280px;
+   margin-top: 45px;
+   margin-bottom: 17px;
+   margin-left: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ #second_section_flower1{
+   height: 400px;
+   width: 200px;
+   background-image:url(../Images/vector_floral/22.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.5);
+   transform: rotate(-43deg);
+   left: -8%;
+   margin-top: -50px;
+ }
+ 
+ #second_section_flower2{
+   height: 150px;
+   width: 150px;
+   background-image:url(../Images/vector_floral/33.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.7);
+   transform: rotate(10deg);
+   left: 46%;
+   top :100px;
+   z-index: -1;
+   display: none;
+ }
+ 
+ #second_section_flower3{
+   height: 250px;
+   width: 250px;
+   background-image:url(../Images/vector_floral/55.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.4);
+   left:81%;
+   top: 700px;
+   transform: rotate(70deg);
+   z-index: -1;
+   display: none;
+ }
+ 
+ 
+ #third_section{
+   width: 100%;
+   height: fit-content;
+   background-color: #F0D9FF;
+ }
+ 
+ 
+ #third_section_first_div{
+   width: 100%;
+   height: fit-content;
+ }
+ 
+ 
+ #third_section_first_div_1{
+   height: 100px;
+   width: 125px;
+   background-image: url(../Images/vector_floral/55.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.5);
+   left: 45%;
+   margin-top: 100px;
+   transform: rotate(70deg);
+   z-index: 1;
+   display: none;
+ }
+ 
+ 
+ 
+ #div_flavor{
+   margin-left: 0vh;
+   margin-bottom: 0vh;
+   background-color:#F0D9FF;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+   z-index: 2;
+  }
+ 
+  #flavor{
+   text-align: center;
+   color: #7B1B35;
+   font-size: 40px;
+   background-color:#F0D9FF;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+   width: fit-content;
+   margin-left: 0px;
+   z-index: 1;
+   padding-top: 50px;
+  }
+ 
+ #third_section_second_div{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+ 
+ }
+ 
+ #third_section_thrid_div_1{
+   background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
+  width: 300px;
+  height: 500px;
+  float:none;
+  background-repeat: no-repeat; 
+  margin-left: 0px;
+  margin-top: 0px;
+ }
+ 
+ #third_section_thrid_div_2{
+   background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
+   width: 400px;
+   height: 550px;
+    float:none;
+   margin-left: 0px;
+   background-repeat: no-repeat; 
+ }
+ 
+ #third_section_thrid_div_3{
+   background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
+   width: 400px;
+   height: 550px;
+   float:none;
+   margin-left: 70px;;
+   margin-top: 0px;
+   background-repeat: no-repeat; 
+ }
+ 
+ #view_more{
+   margin-top: 0vh;
+   margin-left: 0vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+ }
+ 
+ .third_section_button{
+   font-size: 20px;
+   color: white;
+   background-color: #7B1B35;
+   border: 2px solid #7B1B35;
+   border-radius: 50px;
+   padding: 10px;
+   margin-left: 0px;
+   margin-bottom: 50px;;
+ }
+ 
+ .nav{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+ }
+ 
+ footer{
+ width: 100%;
+ height: fit-content;
+ }
+ 
+
+}
+
+
+@media only screen and (max-width:600px) {
+ #landing_cake{
+   width: 270px;
+ }
+
+#first_img{
+  width: 300px;
+  height: 200px;
+  top:550px;
+}
+
+ #second_img{
+   width: 200px;
+   height: 200px;
+   top: 23vh;
+   left: 45%;
+}
+
+#third_img{
+  width: 200px;
+  height: 200px;
+  left: 40%;
+}
+
+  #hamburger{
+   display: inline-block;
+ }
+
+ #ul_class{
+  width: 90%;
+  height: 100vh;
+  background-color: white;
+  z-index: 99;
+
+ }
+
+ .ul_class{
+  position: absolute;
+  top:70px;
+  left:-100%;
+  transition: left 300ms ease-in-out;
+}
+
+.activenav{
+  position: absolute;
+  top:70px;
+  left:0%;
+  transition: left 300ms ease-in-out;
+}
+
+
+
+ ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+  flex-direction: column;
+  gap: 18px;
+}
+
+ul a{
+ color: #7B1B35;
+ text-decoration: none;
+}
+
+
+#second_section{
+  width: 100%;
+  height: fit-content;
+  padding: 50px 0px;
+}
+
+#second_section_first_div_1{
+  width: 100%;
+  height: fit-content;
+}
+
+
+#div_categories{
+  margin-left: 0vh;
+  margin-bottom: 0vh;
+  z-index: 2;
+  background-color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 25%;
+
+ }
+ 
+ #categories{
+   width: 100%;
+   text-align: center;
+   color: #7B1B35;
+   font-size: 40px;
+   margin-top: 0vh;
+   padding-bottom: 5px;
+   margin-bottom: 50px;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+   z-index: 2;
+ }
+ 
+
+#second_section_second_div_1{
+  background:#A988D2;
+  width:30%;
+  height:fit-content;
+}
+
+#second_section_third_div_1{
+  background:#7B1B35;
+  width:40%;
+  height:fit-content;
+}
+
+#second_section_fourth_div_1{ 
+  background:#A988D2;
+  width:30%;
+  height:fit-content;
+}
+
+.second_section_text{
+ text-align: center;
+ text-decoration: underline;
+ color: azure;
+ padding-top: 40px;
+ font-size: 45px;
+}
+
+#second_section_first_div_2{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#second_section_second_div_1,#second_section_third_div_1,#second_section_fourth_div_1{
+  width: 350px;
+  height: fit-content;
+  overflow: hidden;
+
+}
+
+#second_section_second_div_3{
+ background-image: url(../Images/cake_imgs/2nd_section_1_img.png); 
+ width: 350px;
+ height: 300px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ margin-top: 40px;
+}
+
+.second_section_button{
+  font-size: 20px;
+  color: #7B1B35;
+  background-color: white;
+  border: 2px solid #7B1B35;
+  border-radius: 50px;
+  padding: 0px 10px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+#second_section_third_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_2_img.png); 
+  width: 300px;
+  height: 280px;
+  margin-top: 45px;
+  margin-bottom: 17px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+#second_section_fourth_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_3_img.png);
+  width: 300px;
+  height: 280px;
+  margin-top: 45px;
+  margin-bottom: 17px;
+  margin-left: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#second_section_flower1{
+  height: 400px;
+  width: 200px;
+  background-image:url(../Images/vector_floral/22.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.5);
+  transform: rotate(-43deg);
+  left: -8%;
+  margin-top: -50px;
+}
+
+#second_section_flower2{
+  height: 150px;
+  width: 150px;
+  background-image:url(../Images/vector_floral/33.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.7);
+  transform: rotate(10deg);
+  left: 46%;
+  top :100px;
+  z-index: -1;
+  display: none;
+}
+
+#second_section_flower3{
+  height: 250px;
+  width: 250px;
+  background-image:url(../Images/vector_floral/55.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.4);
+  left:81%;
+  top: 700px;
+  transform: rotate(70deg);
+  z-index: -1;
+  display: none;
+}
+
+
+#third_section{
+  width: 100%;
+  height: fit-content;
+  background-color: #F0D9FF;
+}
+
+
+#third_section_first_div{
+  width: 100%;
+  height: fit-content;
+}
+
+
+#third_section_first_div_1{
+  height: 100px;
+  width: 125px;
+  background-image: url(../Images/vector_floral/55.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: opacity(0.5);
+  left: 45%;
+  margin-top: 100px;
+  transform: rotate(70deg);
+  z-index: 1;
+  display: none;
+}
+
+
+
+#div_flavor{
+  margin-left: 0vh;
+  margin-bottom: 0vh;
+  background-color:#F0D9FF;
+  position: relative;
+  margin-top: 50px;
+  z-index: 2;
+ }
+
+ #flavor{
+  text-align: center;
+  color: #7B1B35;
+  font-size: 40px;
+  background-color:#F0D9FF;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  width: fit-content;
+  margin-left: 0px;
+  z-index: 1;
+  padding-top: 50px;
+ }
+
+#third_section_second_div{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+#third_section_thrid_div_1{
+  background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
+ width: 300px;
+ height: 500px;
+ float:none;
+ background-repeat: no-repeat; 
+ margin-left: 0px;
+ margin-top: 0px;
+}
+
+#third_section_thrid_div_2{
+  background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
+  width: 400px;
+  height: 550px;
+   float:none;
+  margin-left: 0px;
+  background-repeat: no-repeat; 
+}
+
+#third_section_thrid_div_3{
+  background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
+  width: 400px;
+  height: 550px;
+  float:none;
+  margin-left: 70px;;
+  margin-top: 0px;
+  background-repeat: no-repeat; 
+}
+
+#view_more{
+  margin-top: 0vh;
+  margin-left: 0vh;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.third_section_button{
+  font-size: 20px;
+  color: white;
+  background-color: #7B1B35;
+  border: 2px solid #7B1B35;
+  border-radius: 50px;
+  padding: 10px;
+  margin-left: 0px;
+  margin-bottom: 50px;;
+}
+
+.nav{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer{
+width: 100%;
+height: fit-content;
+}
+
+
+}
+
+
+@media only screen and (max-width:450px) {
+  #first_section{
+    width: 100%;
+    height: fit-content;
+  }
+
+  #first_section_first_div_1{
+    width: 100%;
+    height: 600px;
+  }
+  
+  
+  #landing_cake{
+    width: 200px;
+    left: 50%;
+    top: 250px;
+  }
+ 
+ #first_img{
+   width: 250px;
+   height: 200px;
+   top:450px;
+ }
+ 
+  #second_img{
+    width: 150px;
+    height: 200px;
+    top: 23vh;
+    left: 45%;
+ }
+ 
+ #third_img{
+   width: 150px;
+   height: 200px;
+   left: 45%;
+   top: 400px;
+ }
+ 
+   #hamburger{
+    display: inline-block;
+  }
+ 
+  #ul_class{
+   width: 90%;
+   height: 100vh;
+   background-color: white;
+   z-index: 99;
+ 
+  }
+ 
+  .ul_class{
+   position: absolute;
+   top:70px;
+   left:-100%;
+   transition: left 300ms ease-in-out;
+ }
+ 
+ .activenav{
+   position: absolute;
+   top:70px;
+   left:0%;
+   transition: left 300ms ease-in-out;
+ }
+ 
+ 
+ 
+  ul{
+   list-style: none;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 60px;
+   flex-direction: column;
+   gap: 18px;
+ }
+ 
+ ul a{
+  color: #7B1B35;
+  text-decoration: none;
+ }
+ 
+ 
+ #second_section{
+   width: 100%;
+   height: fit-content;
+   padding: 50px 0px;
+ }
+ 
+ #second_section_first_div_1{
+   width: 100%;
+   height: fit-content;
+ }
+ 
+ 
+ #div_categories{
+   margin-left: 0vh;
+   margin-bottom: 0vh;
+   z-index: 2;
+   background-color: white;
+   text-align: center;
+   margin: 0 auto;
+   padding: 0 25%;
+ 
+  }
+  
+  #categories{
+    width: 100%;
+    text-align: center;
+    color: #7B1B35;
+    font-size: 40px;
+    margin-top: 0vh;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    z-index: 2;
+  }
+  
+ 
+ #second_section_second_div_1{
+   background:#A988D2;
+   width:30%;
+   height:fit-content;
+ }
+ 
+ #second_section_third_div_1{
+   background:#7B1B35;
+   width:40%;
+   height:fit-content;
+ }
+ 
+ #second_section_fourth_div_1{ 
+   background:#A988D2;
+   width:30%;
+   height:fit-content;
+ }
+ 
+ .second_section_text{
+  text-align: center;
+  text-decoration: underline;
+  color: azure;
+  padding-top: 40px;
+  font-size: 45px;
+ }
+ 
+ #second_section_first_div_2{
+   display: flex;
+   width: 100%;
+   height: fit-content;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ 
+ #second_section_second_div_1,#second_section_third_div_1,#second_section_fourth_div_1{
+   width: 250px;
+   height: fit-content;
+   overflow: hidden;
+ 
+ }
+ 
+ #second_section_second_div_3{
+  background-image: url(../Images/cake_imgs/2nd_section_1_img.png); 
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+ }
+
+ #second_section_second_div_4,#second_section_third_div_4,#second_section_fourth_div_4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+ 
+ .second_section_button{
+   font-size: 20px;
+   color: #7B1B35;
+   background-color: white;
+   border: 2px solid #7B1B35;
+   border-radius: 50px;
+   padding: 0px 10px;
+   margin-left: 0px;
+  
+   margin-bottom: 30px;
+   margin-top: 30px;
+ 
+ }
+ 
+ #second_section_third_div_3{
+   background-image: url(../Images/cake_imgs/2nd_section_2_img.png); 
+   width: 200px;
+   height: 180px;
+   margin-top: 45px;
+   margin-bottom: 17px;
+   margin-left: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ 
+ }
+ 
+ #second_section_fourth_div_3{
+   background-image: url(../Images/cake_imgs/2nd_section_3_img.png);
+   width: 200px;
+   height: 180px;
+   margin-top: 45px;
+   margin-bottom: 17px;
+   margin-left: 30px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ #second_section_flower1{
+   height: 360px;
+   width: 150px;
+   background-image:url(../Images/vector_floral/22.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.5);
+   transform: rotate(-43deg);
+   left: -8%;
+   margin-top: -50px;
+   z-index: -1;
+ }
+ 
+ #second_section_flower2{
+   height: 150px;
+   width: 150px;
+   background-image:url(../Images/vector_floral/33.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.7);
+   transform: rotate(10deg);
+   left: 46%;
+   top :100px;
+   z-index: -1;
+   display: none;
+ }
+ 
+ #second_section_flower3{
+   height: 250px;
+   width: 250px;
+   background-image:url(../Images/vector_floral/55.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.4);
+   left:81%;
+   top: 700px;
+   transform: rotate(70deg);
+   z-index: -1;
+   display: none;
+ }
+ 
+ 
+ #third_section{
+   width: 100%;
+   height: fit-content;
+   background-color: #F0D9FF;
+ }
+ 
+ 
+ #third_section_first_div{
+   width: 100%;
+   height: fit-content;
+ }
+ 
+ 
+ #third_section_first_div_1{
+   height: 100px;
+   width: 125px;
+   background-image: url(../Images/vector_floral/55.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   filter: opacity(0.5);
+   left: 45%;
+   margin-top: 100px;
+   transform: rotate(70deg);
+   z-index: 1;
+   display: none;
+ }
+ 
+ 
+ 
+ #div_flavor{
+   margin-left: 0vh;
+   margin-bottom: 0vh;
+   background-color:#F0D9FF;
+   position: relative;
+   margin-top: 50px;
+   z-index: 2;
+  }
+ 
+  #flavor{
+   text-align: center;
+   color: #7B1B35;
+   font-size: 40px;
+   background-color:#F0D9FF;
+   border-bottom-style: solid;
+   border-bottom-width: 3px;
+   width: fit-content;
+   margin-left: 0px;
+   z-index: 1;
+   padding-top: 50px;
+  }
+ 
+ #third_section_second_div{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 40px;
+ 
+ }
+ 
+ #third_section_thrid_div_1{
+   background-image:url(../Images/cake_imgs/third_section_1_img.JPG);
+  width: 300px;
+  height: 500px;
+  float:none;
+  background-repeat: no-repeat; 
+  margin-left: 0px;
+  margin-top: 0px;
+ }
+ 
+ #third_section_thrid_div_2{
+   background-image:url(../Images/cake_imgs/third_section_2_img.JPG);
+   width: 400px;
+   height: 550px;
+    float:none;
+   margin-left: 0px;
+   background-repeat: no-repeat; 
+ }
+ 
+ #third_section_thrid_div_3{
+   background-image:url(../Images/cake_imgs/third_section_3_img.JPG);
+   width: 400px;
+   height: 550px;
+   float:none;
+   margin-left: 70px;;
+   margin-top: 0px;
+   background-repeat: no-repeat; 
+ }
+ 
+ 
+ #view_more{
+   margin-top: 0vh;
+   margin-left: 0vh;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .third_section_button{
+   font-size: 20px;
+   color: white;
+   background-color: #7B1B35;
+   border: 2px solid #7B1B35;
+   border-radius: 50px;
+   padding: 10px;
+   margin-left: 0px;
+   margin-bottom: 50px;;
+ }
+ 
+ .nav{
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+ }
+ 
+ footer{
+ width: 100%;
+ height: fit-content;
+ }
+ 
+ 
+ }
+ 
+
+ @media screen and (min-device-width: 250px) and (max-device-width: 400px)  {
+   #first_section{
+     width: 100%;
+     height: 50vh;
+   }
+
+   #first_img{
+     width: 400px;
+     height: 240px;
+     top: 35vh;
+   }
+
+   #second_img{
+    width: 260px;
+    height: 240px;
+    top: 10vh;
+  }
+
+  #third_img{
+    width: 300px;
+    height: 200px;
+    top: 35vh;
+    left: 40%;
+  }
+
+  #landing_cake{
+    width: 430px;
+    top: 20%;
+
+  }
+
+
+
+ }
