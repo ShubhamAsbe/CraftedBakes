@@ -1,0 +1,175 @@
+<html>
+
+    <head>
+        <title>Flavours</title>
+        <link rel="stylesheet" href="css/index.css?v=1.0">
+      
+        
+        <link rel="stylesheet" href="css/contact_us.css?v=1.1">
+        <link rel="stylesheet" href="css/flavor-style.css">
+          <link rel="stylesheet" href="css/landing_page.css?v=1.3">
+        <link rel = "icon" href ="Images/icons/CB-Logo.jpeg" type = "image/x-icon">
+    </head>
+
+
+
+<body>
+
+     <!-- This is the header of the landing_page -->
+     <header>
+        <nav>
+            <div id="hamburger" onclick="hamburger(this)">
+                <div class="ham-1"></div>
+                <div class="ham-2"></div>
+                <div class="ham-3"></div>
+            </div>
+
+            <div id="header_logo">
+                <a href="index.html"><img src="Images/icons/CB-removebg-preview.png" alt="Logo Image" height="100"></a>
+            </div>
+            <div class="ul_class" id="ul_class">
+                <ul id="Home_menu">
+                    <li class="Home_item"><a href="index.html" class="Home_item_link">HOME</a></li>
+                    <li class="Home_item"><a href="Flavors.html" class="Home_item_link">FLAVOURS</a></li>
+                    <li class="Home_item"><a href="contact_us.html" class="Home_item_link">CONTACT</a></li>
+                    <li class="Home_item"><a href="#about" class="Home_item_link">ABOUT US</a></li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
+
+
+        <div class="row-1">
+            <h2 class="underline">Flavors</h2>
+        </div>
+
+        <div class="row-2">
+
+            <img src="../Images/flavour_images/flower_inverted_n.png" class="flower1">
+            <img src="../Images/flavour_images/4-re.png" class="flower2">
+
+            <div class="cake-box">
+
+                <img src="../Images/flavour_images/c1.png" class="cake1">
+                <h3 id="cake1_name">Coffee with Chocolate</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c2.png" class="cake2">
+                <h3 id="cake2_name">Purple Cake</h3>
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c3.png" class="cake3">
+                <h3 id="cake3_name">Orange Cake</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c4.png" class="cake4">
+                <h3 id="cake4_name">Stardust Cake</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c5.png" class="cake5">
+                <h3 id="cake5_name">Rainbow Cake</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c6.png" class="cake6">
+                <h3 id="cake6_name">Pista Cake</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c7.png" class="cake7">
+                <h3 id="cake7_name">Vanilla Cake</h3>
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c8.png" class="cake8">
+                <h3 id="cake8_name">Chocolatte Cake</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c9.png" class="cake9">
+                <h3 id="cake9_name">Pinapple Cake</h3>
+
+            </div>
+
+            <div class="cake-box">
+                <img src="../Images/flavour_images/c10.png" class="cake10">
+                <h3 id="cake10_name">Paan Cake</h3>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <nav class="nav">
+                <div id="footer_logo">
+                    <img src="../Images/flavour_images/cb_logo.png" alt="Logo Image" height="200px" width="200px">
+                </div>
+    
+                <div >
+                    <h4>SOCIALS</h4>
+                    <ul id="social">
+                        <li>
+                            <a href="" data-toggle="tooltip" data-placement="top" title="WhatsApp"><img src="Images/icons/386747_whatsapp_call_whats app_icon.png" alt="Whatsapp" height="30px" width="30px"></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/crafted_bakes?utm_medium=copy_link" data-toggle="tooltip" data-placement="top" title="Instagram"><img src="Images/icons/2609558_instagram_social media_social_icon.png" alt="Instagram" height="30px" width="30px"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/craftedbakesbyisha/" data-toggle="tooltip" data-placement="top" title="Facebook"><img src="Images/icons/107175_circle_facebook_icon.png" alt="Facebook" height="30px" width="30px"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="div_contact">
+                    <h4>CONTACT</h4>
+                    <ul id="contact">
+                        <li>
+                            <a href="" data-toggle="tooltip" data-placement="top" title="Email"><img src="Images/icons/mail.png" alt="Whatsapp" height="30px" width="40px"><span>craftedbakes17@gmail.com</span></a>
+                        </li>
+                    </ul>
+                </Div>
+            </nav>
+        </footer>
+    
+    
+    
+        <script>
+            function hamburger(obj){
+                obj.classList.toggle("active");
+                var x=document.getElementById("ul_class");
+                x.classList.toggle("activenav");
+    
+                
+            }
+    
+        </script>
+
+        <script>
+
+            var menuList2 = document.getElementById("menulist");
+
+            menuList2.style.maxHeight = "0px";
+
+            function togglemenu() {
+
+                if (menuList2.style.maxHeight == "0px") {
+                    menuList2.style.maxHeight = "130px";
+                }
+                else {
+                    menuList2.style.maxHeight = "0px";
+                }
+            }
+
+        </script>    
+</body>
+
+</html>
