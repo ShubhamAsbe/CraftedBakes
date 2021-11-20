@@ -468,6 +468,10 @@ footer{
 
 #div_contact{
   margin-bottom: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #contact span{
@@ -537,13 +541,20 @@ footer{
    align-items: center;
    margin-top: 60px;
    flex-direction: column;
-   gap: 18px;
+   /* gap: 18px; */
+ }
+
+ #Home_menu a{
+  padding: 10px 280px;
+ }
+ .Home_item{
+
  }
  
  ul a{
   color: #7B1B35;
   text-decoration: none;
-  padding: 10px 300px;
+  /* padding: 10px 300px; */
  }
  
  
