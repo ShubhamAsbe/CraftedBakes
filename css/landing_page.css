@@ -543,6 +543,7 @@ footer{
  ul a{
   color: #7B1B35;
   text-decoration: none;
+  padding: 10px 300px;
  }
  
  
@@ -2022,7 +2023,7 @@ height: fit-content;
  @media screen and (min-device-width: 250px) and (max-device-width: 400px)  {
  
   #Home_menu{
-    font-size: 35px;
+    font-size: 45px;
     gap: 60px;
   }
 

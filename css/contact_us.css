@@ -236,7 +236,7 @@ input[type=text], select, textarea{
   @media screen and (min-device-width: 250px) and (max-device-width: 400px) {
     
     #section_first{
-        height: 70vh;
+        height: 75vh;
     }
 
     #div_second_1{
